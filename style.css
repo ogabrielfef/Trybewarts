@@ -10,7 +10,7 @@
 }
 
 .trybewarts-login input {
-  margin:0 10px;
+  margin: 0 10px;
 }
 
 .trybewarts-login button {
@@ -21,8 +21,7 @@
   margin-left: 20px;
 }
 
-#trybewarts-header-title {
-  font-family: ;
+#trybewarts-header-title {  
   color: aliceblue;
   font-size: 60px;
 }
@@ -50,7 +49,7 @@ main {
   flex-wrap: wrap;
   max-width: 500px;
   margin: 0px auto;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .form-select {
@@ -62,7 +61,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+} 
 
 #second-form {
   display: flex;
