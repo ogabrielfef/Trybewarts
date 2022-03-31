@@ -1,11 +1,30 @@
+/* header da pagina com os elementos icone, titulo e form-login */
 .header {
     display: flex;
     background-color: rgb(50, 167, 145);
     justify-content: space-between;
 }
 
-#trybewarts-header-title
+#trybewarts-header-title {
+
+}
 
 .trybewarts-login {
     display: flex;
+}
+/* corpa da pagina com formulario e logo */
+
+main {
+    display: flex;
+}
+
+
+#evaluation-form {
+    display: flex;
+    flex-direction: column;
+    width: 675px;
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
 }
