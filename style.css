@@ -21,7 +21,7 @@
   margin-left: 20px;
 }
 
-#trybewarts-header-title {  
+#trybewarts-header-title {
   color: aliceblue;
   font-size: 60px;
 }
@@ -34,7 +34,6 @@
 main {
   display: flex;
   justify-content: space-around;
-  align-items: stretch;  
   margin: 100px 0;
 }
 
@@ -49,7 +48,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   max-width: 500px;
-  margin: 0px auto;
   justify-content: space-between;
 }
 
@@ -59,10 +57,9 @@ main {
 
 #pai-das-divs {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-} 
+}
 
 #second-form {
   display: flex;
@@ -84,11 +81,11 @@ main {
   justify-content: space-between;
 }
 
-#label-rate{
+#label-rate {
   margin-right: 20px;
 }
 
-#form-foot{
+#form-foot {
   display: flex;
   flex-direction: column;
 }
@@ -108,7 +105,8 @@ footer {
   height: 3rem;
   align-items: center;
 }
-body{
+
+body {
   size: 100%;
   max-height: 745px;
- }
+}
